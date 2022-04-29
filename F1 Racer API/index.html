@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/F1 Racer API/css/main.css">
+<!-- Add Script Tags Here -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/F1 Racer API/js/main.js" defer></script>
+<title>F1 Racer API</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Home</span>
+    </nav>
+    <h1 class="text-center">F1 Racer API Call</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <!-- using DOM to grab form data -->
+                <form name="testData" id="testDataForm">
+                <label for="season">Season</label>
+                <input type="text" name='season' id="season">
+                <label for="round">Round</label>
+                <input type="text" name='round' id="round">
+                <!-- Section for API Content -->
+                <button type="submit" id="submitButton">Submit</button>
+                <section class="list-group text-center racer-list mt-3">
+                    <!-- API Content Here -->
+                </section>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
